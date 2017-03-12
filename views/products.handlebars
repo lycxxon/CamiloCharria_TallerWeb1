@@ -1,0 +1,71 @@
+
+<div class="menu">
+    <header>
+        <a href="http://localhost:3000">
+            <img src="http://localhost:3000/imgs/liqs.png">
+        </a>
+    </header>
+
+    <a href="/products/servicio">
+        <div class="boton">
+            <h3>&ltservicios/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+    <a href="/products/database">
+        <div class="boton">
+            <h3>&ltdatabase/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+    <a href="/products/gadget">
+        <div class="boton">
+            <h3>&ltgadget/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+    <a href="/products/leaks">
+        <div class="boton">
+            <h3>&ltleaks/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+    <a href="/products/educacion">
+        <div class="boton">
+            <h3>&lteducacion/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+
+    <a href="/products">
+        <div class="boton">
+            <h3>&ltVer todos/&gt</h3><a class="link" href="">
+            </a>
+        </div>
+    </a>
+
+</div>
+
+<div class="productos">
+
+
+    {{#each data}}
+
+
+    <div class="item">
+        <div class="info">
+            <h1>{{name}}</h1>
+            <h2>{{productType}}</h2>
+            <h3>{{description}}</h3>
+        </div>
+        <div class="img">
+            <img src="{{img}}">
+        </div>
+    </div>
+        {{/each}}
+</div>

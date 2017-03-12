@@ -1,0 +1,270 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+	background-image: linear-gradient(135deg, #2b5876 0%,#4e4376 100%);
+}
+
+
+.home, .filtros{
+	width: 100%;
+    height: 100%;
+}
+
+header{
+    width: auto;
+    height: 10%;
+}
+
+header img{
+    width: 10%;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+.home .inicio{
+	margin-top: 12%;
+	height: 500px;
+    padding-left: 5%;
+}
+
+.home .inicio h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.home .inicio h2{
+    color: #04ffff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.home .inicio p{
+    width: 50%; 
+    color: white;
+ font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.circulo{
+	background-image: linear-gradient(235deg, #2b5876 0%,#4e4376 100%);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin:100px auto;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-color: white;
+}
+
+.circulo img{
+    padding-top: 40%;
+    width: 20%;
+
+}
+
+
+.filtros .cosita{
+    width: 100%;
+    height: 20%;    
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+
+}
+
+.filtros .cosita h2{
+    color: #FF98E2;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.filtros  .cosita p{
+    color: white;
+    width: 50%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.filtros .info{
+    width: 60%;
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filtros .boton{
+    vertical-align: middle;
+    display: inline-block;
+    border-radius:  15px;;
+    width: 30%;
+    height: 30%;;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-color: #1dd6ff;
+}
+
+.filtros.menu .boton{
+    vertical-align: middle;
+    display: inline-block;
+    border-radius:  15px;;
+    width: 30%;
+    height: 30%;;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-color: #1dd6ff;
+}
+
+.filtros,.menu .boton h3{
+    font-weight: 100;
+    font-size: 25px;
+    color: #1dd6ff;
+    font-family: 'Roboto Mono', monospace;
+}
+.boton h3{
+    font-weight: 100;
+    font-size: 25px;
+    color: #1dd6ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.menu{
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid white;
+}
+
+.menu img{
+    width: 30%;
+}
+
+.productos{
+    padding-top: 2%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+
+.productos .item{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.productos .item .info h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.productos .item .info h2{
+    font-weight: 100;
+    font-size: 25px;
+    color: #FF98E2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.productos .item .info h3{
+    font-weight: 100;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.item .img{
+    display: inline-block;
+}
+
+.item .info{
+    padding-left: 3%;
+    display: inline-block;
+    width: 70%;
+}
+
+.menu .boton{
+    vertical-align: middle;
+    display: inline-block;
+    border-radius:  15px;;
+    width: 30%;
+    height: 30%;;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-color: #1dd6ff;
+}
+
+.menu .boton h3,.link{
+    font-weight: 100;
+    font-size: 25px;
+    color: #1dd6ff;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.menu .boton{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.menu .boton h3 {
+    padding-left: 8%;
+    width: 80%;
+    display: inline-block;
+}
+
+.menu .boton .link{
+    display: inline-block;
+    padding-left: 4%;
+}
+
+@media screen and (max-width: 699px) and (min-width: 300px) {
+    
+    header img {
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .home .inicio h1{
+            font-size: 30px;
+        }
+        .home .inicio h2{
+            font-size: 20px;
+        }
+        .home .inicio p{
+            font-size: 15px;
+        }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    
+    .home .inicio h1{
+            font-size: 50px;
+        }
+        .home .inicio h2{
+            font-size: 30px;
+        }
+        .home .inicio p{
+            font-size: 15px;
+        }
+    
+}
+
+@media screen and (min-width: 1001px) {
+    
+}
+
