@@ -2,12 +2,12 @@
  * http://usejsdoc.org/
  */
 var data = [
-	{"name":"Hackeo de un sitio web generico: $2,000USD", "productType":"servicio", "description":"Podemos dejar fuera de servicio cualquier sitio web, hackearlo o hacer un ataque DDOS.", "img":"http://localhost:3000/imgs/liqs.png"},
-    {"name":"Acceso para cuenta de Gmail: $90USD", "productType":"servicio", "description":"Garantizamos el acceso a cualquier cuenta de Gmail", "img":"/imgs/"},
-    {"name":"Acceso para cuenta de Facebook: $20USD", "productType":"servicio", "description":"Garantizamos el acceso a cualquier cuenta de Facebook", "img":"/imgs/"},
-    {"name":"Servicios de encriptado: $8USD", "productType":"servicio", "description":"Encriptamos tus archivos, correos o lo que sea posible.", "img":"/imgs/"},
-    {"name":"Contraseñas para Netflix: $1.25USD", "productType":"servicio", "description":"El entretenimiento deberia ser de facil alcance. Acceso a cuentas de Netflix garantizado.", "img":"/imgs/"},
-    {"name":"Facebook Hacker programa 3 meses x 350$USD", "productType":"servicio", "description":"Esta herramienta deja a los usuarios hackear cualquier cuenta de Facebook usando multiples metodos tecnicos de hackeo.", "img":"/imgs/"},
+	{"name":"Hackeo de un sitio web generico: $2,000USD", "productType":"servicio", "description":"Podemos dejar fuera de servicio cualquier sitio web, hackearlo o hacer un ataque DDOS.", "img":"http://localhost:3000/imgs/service-30.png"},
+    {"name":"Acceso para cuenta de Gmail: $90USD", "productType":"servicio", "description":"Garantizamos el acceso a cualquier cuenta de Gmail", "img":"http://localhost:3000/imgs/service-29.png"},
+    {"name":"Acceso para cuenta de Facebook: $20USD", "productType":"servicio", "description":"Garantizamos el acceso a cualquier cuenta de Facebook", "img":"http://localhost:3000/imgs/service-27.png"},
+    {"name":"Servicios de encriptado: $8USD", "productType":"servicio", "description":"Encriptamos tus archivos, correos o lo que sea posible.", "img":"http://localhost:3000/imgs/service-26.png"},
+    {"name":"Contraseñas para Netflix: $1.25USD", "productType":"servicio", "description":"El entretenimiento deberia ser de facil alcance. Acceso a cuentas de Netflix garantizado.", "img":"http://localhost:3000/imgs/service-25.png"},
+    {"name":"Facebook Hacker programa 3 meses x 350$USD", "productType":"servicio", "description":"Esta herramienta deja a los usuarios hackear cualquier cuenta de Facebook usando multiples metodos tecnicos de hackeo.", "img":"http://localhost:3000/imgs/service-28.png"},
 
     {"name":"Proxmark3 Kit: $430USD", "productType":"gadget", "description":"Este kit puede ser usado para leer y clonar tarjetas con Radio Frequency Identification (RFDI), puede ser usado para entrar a edficios con sistemas de sguridad que usen esta tecnología.", "img":"http://localhost:3000/imgs/Gadgets-05.png"},
     {"name":"MagSpoof: $10USD", "productType":"gadget", "description":"Este dispositivo permite emular inalambricamente cualquier tarjeta de credito o tarjeta que contenga una banda magnetica", "img":"http://localhost:3000/imgs/Gadgets-01.png"},
