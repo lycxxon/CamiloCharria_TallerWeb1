@@ -185,6 +185,7 @@ header img{
 
 .item .img{
     display: inline-block;
+    padding-left: 2%;
 }
 
 .item .info{
